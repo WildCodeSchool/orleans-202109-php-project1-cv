@@ -22,13 +22,8 @@ nav .items {
     gap: var(--spacing-2);
 }
 
-nav a:any-link {
-    text-decoration: none;
+nav a {
     color: var(--dark);
-}
-
-nav a:hover {
-    color: var(--primary);
 }
 
 .menu {

@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primary);
+    opacity: 0.8;
+    padding-block: var(--spacing-2);
+}
+
+footer a {
+    color: var(--light);
+}
+
+footer a:hover {
+    color: var(--dark);
+}
+
+
+.go-top  {
+    --size:70px;
+    position: fixed;
+    right: var(--spacing-4);
+    bottom: var(--size);
+
+    backdrop-filter: blur(8px);
+    z-index: var(--navbar-index);
+
+    opacity: 0.6;
+}
+
+.go-top:hover  {
+    opacity: 0.9;
+}
+
+.go-top svg {
+    width: var(--size);
+    height: var(--size);
+    fill:var(--primary);
+    background-color: var(--light-transparent);
+    border-radius: 8px;
+}
+

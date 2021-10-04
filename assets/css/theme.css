@@ -20,6 +20,8 @@
 
     --navbar-index:1;
     --menu-index:2;
+
+    scroll-behavior: smooth;
 }
 
 * {
@@ -31,7 +33,9 @@ body {
     background-color: var(--light);
     font-family: var(--font-text);
     font-size: var(--font-size);
-    line-height: calc(var(--font-size) * 1.5);
+    line-height: 150%;
+    font-weight: 300;
+
 }
 
 h1, h2, h3, h4 {
@@ -42,9 +46,21 @@ h1, h2, h3, h4 {
 svg {
     width: 1em;
     height: 1em;
-    vertical-align: middle;
+    vertical-align: -2px;
 }
 
 section {
     padding: var(--spacing-4);
+}
+
+p {
+    font-size: 22px;
+}
+
+a:any-link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary);
 }

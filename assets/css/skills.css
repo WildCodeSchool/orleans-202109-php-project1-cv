@@ -31,3 +31,7 @@
 .skill figcaption {
     margin-block-start: var(--spacing-2);
 }
+
+.skills p {
+    margin-block-end: var(--spacing-4);
+}
