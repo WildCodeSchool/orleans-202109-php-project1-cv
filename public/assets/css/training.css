@@ -1,0 +1,48 @@
+.trainings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: var(--spacing-2);
+}
+
+#trainings h2 {
+    padding-inline: var(--spacing-4);
+    padding-block-start: var(--spacing-4);
+    
+}
+
+.training {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-rows: minmax(150px, 1fr);
+    box-shadow: 0 0 8px -4px var(--intermediate);
+}
+
+.training img {
+    align-self: stretch;
+    width: 100%;
+    object-fit: cover;
+}
+
+.training figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: var(--spacing-2);
+}
+
+.training h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-block-end: var(--spacing);
+}
+ 
+.date, .location {
+    color: var(--intermediate);
+}
+
+.training p {
+    color: var(--intermediate);
+    flex-grow: 2;
+}

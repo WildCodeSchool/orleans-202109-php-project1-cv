@@ -34,7 +34,6 @@ body {
     font-size: var(--font-size);
     line-height: 150%;
     font-weight: 300;
-
 }
 
 h1, h2, h3, h4 {
@@ -49,9 +48,6 @@ svg {
     vertical-align: -2px;
 }
 
-section {
-    padding: var(--spacing-4);
-}
 
 p {
     font-size: 22px;
