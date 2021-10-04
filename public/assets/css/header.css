@@ -21,7 +21,7 @@ header img {
 }
 
 .infos h1 {
-    font-size: calc(var(--font-size) * 3);
+    font-size: calc(var(--font-size) * 3.5);
     margin-bottom: var(--spacing-2);
 }
 
