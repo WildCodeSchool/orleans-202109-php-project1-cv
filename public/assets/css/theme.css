@@ -49,10 +49,6 @@ svg {
     vertical-align: -2px;
 }
 
-section {
-    padding: var(--spacing-4);
-}
-
 p {
     font-size: 22px;
 }
