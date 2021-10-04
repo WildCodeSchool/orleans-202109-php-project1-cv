@@ -1,0 +1,50 @@
+:root {
+    --primary: rgb(10, 169, 231);
+    --primary-transparent: rgb(10, 169, 231, 0.05);
+    --secondary: rgb(231, 128, 10);
+    --light: rgb(246, 247, 248);
+    --light-transparent: rgba(246, 247, 248, 0.5);
+    --dark: #394447;
+    --intermediate: #8c9397;;
+
+    --font-title: 'Merriweather', serif;
+    --font-text: 'Roboto', sans-serif;
+    --font-size: 20px;
+
+    --spacing: 8px;
+    --spacing-2: calc(var(--spacing) * 2);
+    --spacing-3: calc(var(--spacing) * 3);
+    --spacing-4: calc(var(--spacing) * 4);
+
+    --navbar-height: 70px;
+
+    --navbar-index:1;
+    --menu-index:2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color: var(--light);
+    font-family: var(--font-text);
+    font-size: var(--font-size);
+    line-height: calc(var(--font-size) * 1.5);
+}
+
+h1, h2, h3, h4 {
+    color: var(--primary);
+    font-family: var(--font-title);
+}
+
+svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+section {
+    padding: var(--spacing-4);
+}
