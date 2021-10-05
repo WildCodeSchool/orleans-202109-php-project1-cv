@@ -5,7 +5,9 @@
     --light: rgb(246, 247, 248);
     --light-transparent: rgba(246, 247, 248, 0.5);
     --dark: #394447;
-    --intermediate: #8c9397;;
+    --intermediate: #8c9397;
+    --error: #da0808;
+    --error-transparent: #da080855;
 
     --font-title: 'Maven Pro', sans-serif;
     --font-text: 'Roboto', sans-serif;

@@ -1,0 +1,61 @@
+.contact {
+    padding: var(--spacing-4);
+    background-color: var(--primary-transparent);
+}
+
+.contact div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+input, textarea {
+    padding: var(--spacing-2);
+    background-color: var(--light);
+    border-radius: 4px;
+    border:1px solid var(--intermediate);
+}
+
+label:not(:first-child) {
+    margin-block-start: var(--spacing);
+}
+
+button {
+    margin-block-start: var(--spacing-2);
+    background-color: var(--primary);
+    border-radius: 4px;
+    border: none;
+    width: min-content;
+    padding-inline: var(--spacing-2);
+    padding-block: var(--spacing);
+    color: var(--light);
+    font-size: 1em;
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    filter: brightness(90%);
+}
+
+.errors {
+    padding: var(--spacing-2);
+    border-radius:4px;
+    color: var(--error);
+    background-color: var(--error-transparent);
+    list-style: none;
+}
+
+.coordinates {
+    color: var(--intermediate);
+    list-style: none;
+    line-height: 150%;
+    font-size: 1.2em;
+}
