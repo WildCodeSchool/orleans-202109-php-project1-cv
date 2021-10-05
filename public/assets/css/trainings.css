@@ -2,3 +2,36 @@
     padding-block: var(--spacing-4);
     padding-inline-start: var(--spacing-4);
 }
+
+.training-cards {
+    display: flex;
+    gap: var(--spacing-3);
+    margin: var(--spacing-4);
+    flex-wrap: wrap;
+}
+
+.training-card{
+    width: 800px;
+    display: flex;
+    box-shadow: 0 0 16px -8px var(--intermediate);
+}
+
+.training-card img{
+    min-height: 100%;
+    width : calc(100% / 3);
+    object-fit: cover;
+
+}
+
+.training-card h3{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.training-card p{
+    color : var(--intermediate);
+    font-size: var(--font-size);
+}
+.training-informations{
+    padding-left: var(--spacing-3);
+}
