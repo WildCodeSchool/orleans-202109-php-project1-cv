@@ -2,3 +2,39 @@
     padding-block: var(--spacing-4);
     padding-inline-start: var(--spacing-4);
 }
+
+.training-cards {
+    display:flex;
+    flex-wrap: wrap;
+    gap:var(--spacing-2);
+    margin-inline: var(--spacing-4);
+}
+
+.training-card {
+    display:flex;
+    width: 800px;
+    box-shadow: 0 0 16px -8px var(--intermediate);
+}
+
+.description {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc((100% / 3) * 2);
+    padding:var(--spacing-2);
+    color: var(--intermediate);
+}
+
+.description p {
+    flex-grow: 2;
+}
+
+.training-card img {
+    width: calc(100% / 3);
+    
+}
+
+.description h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+}

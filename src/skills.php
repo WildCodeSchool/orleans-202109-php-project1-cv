@@ -7,3 +7,4 @@ $skills = [
     ['label' => 'Analysis', 'image' => 'analysis.png'],
     ['label' => 'Planification', 'image' => 'planification.png'],
 ];
+
